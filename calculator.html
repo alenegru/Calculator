@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <head>
-<title> Calculator </title>
-<link rel="stylesheet" type="text/css" href="calculator.css"/>
+<title>Calculator</title>
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+<link rel="stylesheet" type="text/css" href="calculator.css">
+<script src="draft.js"></script>
 </head>
 
 <body>
+<div class="container">
+	<div class="item-header" id="currentValue">0</div>
 
+	<button class="silver clear">AC</button>
+	<button class="silver op" >+/-</button>
+	<button class="silver op" >%</button>
+	<button class="orange op division" data-op="÷">÷</button>
+
+	<button class="num" data-nr="7">7</button>
+	<button class="num" data-nr="8">8</button>
+	<button class="num" data-nr="9">9</button>
+	<button class="orange op multiply" data-op="X">X</button>
+
+	<button class="num" data-nr="4">4</button>
+	<button class="num" data-nr="5">5</button>
+	<button class="num" data-nr="6">6</button>
+	<button class="orange op subtract" data-op="-">-</button>
+
+	<button class="num" data-nr="1">1</button>
+	<button class="num" data-nr="2">2</button>
+	<button class="num" data-nr="3">3</button>
+	<button class="orange op add" data-op="+">+</button>
+
+	<button class="item-footer num
+	" data-nr="0">0</button>
+	<button>,</button>
+	<button class="orange equal op" data-op="=">=</button>
+</div>
 </body>
-
