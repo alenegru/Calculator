@@ -1,1 +1,52 @@
-ajifnasijfnadisnsains
+.container {
+	background-color: black;
+	height: 600px;
+	width: 400px;
+	margin: auto;
+	padding: 10px;
+	font-family: Helvetica;
+	display: grid;
+	grid-template-columns: 90px 90px 90px 90px;
+	grid-template-areas:
+	"header header header header"
+	"main main main main"
+	"main main main main"
+	"main main main main"
+	"main main main main"
+	"footers footers footer footer";
+	grid-gap: 10px;
+}
+
+button {
+	background-color: #484848;
+	border-radius: 50%;
+	border: none;
+	font-size: 30px;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	padding: 15px;
+}
+
+.item-header {
+	grid-area: header;
+	color: white;
+	font-size: 70px;
+	text-align: right;
+}
+
+.item-footer{
+	grid-area: footers;
+	padding-right: 110px;
+	border-width: 40px 20px;
+	border-radius: 100px;
+	font-size: 35px;
+}
+
+.orange {
+	background-color: #FF9500;
+}
+
+.silver {
+	background-color: silver;
+}
